@@ -1,0 +1,12 @@
+# Policy Aziendale NovaTech 2026
+## Sezione 1: Orari di Lavoro
+L'orario di lavoro standard è dalle 09:00 alle 18:00, dal lunedì al venerdì.
+La pausa pranzo è consentita tra le 12:30 e le 14:30 per un massimo di 60 minuti.
+
+## Sezione 2: Smart Working
+I dipendenti con anzianità superiore a 1 anno possono richiedere fino a 2 giorni di lavoro da remoto a settimana.
+La richiesta va inoltrata tramite il portale HR entro il venerdì della settimana precedente.
+
+## Sezione 3: Utilizzo IA
+I dipendenti possono utilizzare e sono spronati a farlo, l'intelligenza artificiale generativa. In particolare l'azienda mette a disposizione i modelli di Claude per sfruttare al massimo Claude Code.
+È necessario usare l'IA con consapevolezza poiché è necessario comprendere quello che il modello scrive, onde evitare problemi derivanti dalla incapacità di interpretare quello che il modello ha appena scritto
