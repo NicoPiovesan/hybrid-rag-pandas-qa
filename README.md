@@ -6,34 +6,34 @@ Un sistema di risposta alle domande basato su Python che combina la Generazione 
 
 ```
 ┌─────────────────┐     HTTP API      ┌──────────────────────────────────────┐
-│   Streamlit UI  │ ───────────────►  │         Server FastAPI              │
-│   (app_ui.py)   │ ◄───────────────  │       (api_server.py)               │
+│   Streamlit UI  │ ───────────────►  │         Server FastAPI               │
+│   (app_ui.py)   │ ◄───────────────  │       (api_server.py)                │
 └─────────────────┘   Risposta JSON   │                                      │
                                       │  ┌────────────────────────────────┐  │
-                                      │  │ Ramo 1: ChromaDB RAG          │  │
-                                      │  │  - Ricerca vettoriale         │  │
-                                      │  │  - LLM Ollama                 │  │
+                                      │  │ Ramo 1: ChromaDB RAG           │  │
+                                      │  │  - Ricerca vettoriale          │  │
+                                      │  │  - LLM Ollama                  │  │
                                       │  └────────────────────────────────┘  │
                                       │  ┌────────────────────────────────┐  │
-                                      │  │ Ramo 2: Agente Pandas AI      │  │
-                                      │  │  - Esecuzione query CSV       │  │
-                                      │  │  - Agente LangChain           │  │
+                                      │  │ Ramo 2: Agente Pandas AI       │  │
+                                      │  │  - Esecuzione query CSV        │  │
+                                      │  │  - Agente LangChain            │  │
                                       │  └────────────────────────────────┘  │
                                       └──────────────────────────────────────┘
                                                     │
                                                     ▼
                                       ┌──────────────────────────────────────┐
-                                      │    Database Vettoriale ChromaDB     │
-                                      │   (Embedding Google Gemini)         │
+                                      │    Database Vettoriale ChromaDB      │
+                                      │   (Embedding Google Gemini)          │
                                       └──────────────────────────────────────┘
                                                     ▲
                                                     │
                                       ┌──────────────────────────────────────┐
                                       │    Pipeline di Ingestione            │
                                       │    (ingestion_pipeline.py)           │
-                                      │  - Monitora novatech_data/          │
-                                      │  - Partiziona con `unstructured`    │
-                                      │  - Suddivide e incorpora documenti  │
+                                      │  - Monitora novatech_data/           │
+                                      │  - Partiziona con `unstructured`     │
+                                      │  - Suddivide e incorpora documenti   │
                                       └──────────────────────────────────────┘
 ```
 
